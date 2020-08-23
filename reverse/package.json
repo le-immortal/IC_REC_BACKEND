@@ -1,0 +1,20 @@
+{
+  "name": "reverse",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "clean-css": "^4.2.3",
+    "constantinople": "^4.0.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.4",
+    "uglify-js": "^3.10.1"
+  }
+}
