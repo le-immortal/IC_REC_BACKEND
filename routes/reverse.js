@@ -10,7 +10,6 @@ router.get('/',(req, res) =>{
     rev = word.split("").reverse().join("");
     var len  = rev.length;
     res.json({number_words: len, reverse: rev });
-
 });
 
 module.exports = router;
